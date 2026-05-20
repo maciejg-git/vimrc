@@ -412,7 +412,7 @@ require("lazy").setup({
       opts = {
         modes = {
           char = {
-            keys = { "f", "F" },
+            enabled = false
           }
         }
       },
