@@ -565,9 +565,6 @@ require("lazy").setup({
             },
           },
       },
-      keys = {
-        { "<leader>d", mode = { "n" }, function() MiniDiff.toggle_overlay() end, desc = "Toggle diff overlay" },
-      },
       lazy = false,
       version = false 
     },
@@ -636,7 +633,7 @@ require("lazy").setup({
       dependencies = { "MunifTanjim/nui.nvim" },
       cmd = "CodeDiff",
       keys = {
-        { "<leader>gD", mode = { "n" }, "<cmd>CodeDiff<cr>", desc = "CodeDiff" },
+        { "<leader>d", mode = { "n" }, "<cmd>CodeDiff<cr>", desc = "CodeDiff" },
       },
     },
     {
