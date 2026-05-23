@@ -25,6 +25,7 @@ Neovim IDE focused on web dev.
 - ["saghen/blink.cmp"](https://github.com/saghen/blink.cmp) - performant, batteries-included completion plugin for Neovimn
 - ["folke/snacks.nvim"](https://github.com/folke/snacks.nvim) - a collection of QoL plugins for Neovim
     - picker
+    - explorer
     - lazygit integration
     - zen mode
 - ['MeanderingProgrammer/render-markdown.nvim'](https://github.com/MeanderingProgrammer/render-markdown.nvim) - plugin to improve viewing Markdown files in Neovim
@@ -38,13 +39,10 @@ Neovim IDE focused on web dev.
 - ["vuki656/package-info.nvim"](https://github.com/vuki656/package-info.nvim) - all the npm/yarn/pnpm commands I don't want to type
 - ['rcarriga/nvim-notify'](https://github.com/rcarriga/nvim-notify) - a fancy, configurable, notification manager for NeoVim
 - ["kevinhwang91/nvim-hlslens"](https://github.com/kevinhwang91/nvim-hlslens) - nvim-hlslens helps you better glance at matched information, seamlessly jump between matched instances
-- ['max397574/better-escape.nvim'](https://github.com/max397574/better-escape.nvim) - map keys without delay when typing
 - ['FabijanZulj/blame.nvim'](https://github.com/FabijanZulj/blame.nvim) - blame.nvim is a fugitive.vim style git blame visualizer for Neovim.
 - ["mason-org/mason.nvim"](https://github.com/mason-org/mason.nvim) - Portable package manager for Neovim that runs everywhere Neovim runs. Easily install and manage LSP servers, DAP servers, linters, and formatters.
-- ['echasnovski/mini.files'](https://github.com/echasnovski/mini.files) - Navigate and manipulate file system. Part of 'mini.nvim' library
 - ['echasnovski/mini.surround'](https://github.com/echasnovski/mini.surround) - Neovim Lua plugin with fast and feature-rich surround actions. Part of 'mini.nvim' library
 - ["monaqa/dial.nvim"](https://github.com/monaqa/dial.nvim) - enhanced increment/decrement plugin for Neovim
-- ['andrewferrier/debugprint.nvim'](https://github.com/andrewferrier/debugprint.nvim) - Debugging in NeoVim the print() way
 - ['MeanderingProgrammer/treesitter-modules.nvim'](https://github.com/MeanderingProgrammer/treesitter-modules.nvim) - Original modules from nvim-treesitter master branch
 - ['nvim-mini/mini.hipatterns'](https://github.com/nvim-mini/mini.hipatterns) - Highlight patterns in text. Part of 'mini.nvim' library.
 - ['nvim-mini/mini-git'](https://github.com/nvim-mini/mini-git) - Git integration. Part of 'mini.nvim' library.
@@ -54,5 +52,4 @@ Neovim IDE focused on web dev.
 - ['catppuccin/nvim'](https://github.com/catppuccin/nvim)
 - ['sainnhe/everforest'](https://github.com/sainnhe/everforest)
 - ['EdenEast/nightfox.nvim'](https://github.com/EdenEast/nightfox.nvim)
-- ["abreujp/scholar.nvim"](https://github.com/abreujp/scholar.nvim)
 - ['zenbones-theme/zenbones.nvim'](https://github.com/zenbones-theme/zenbones.nvim)
