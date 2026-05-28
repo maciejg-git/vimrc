@@ -162,7 +162,7 @@ vim.lsp.config('vtsls', {
 
 vim.lsp.enable('vtsls')
 vim.lsp.enable('vue_ls')
-vim.lsp.enable('emmet_ls')
+vim.lsp.enable('emmet_language_server')
 vim.lsp.enable('eslint')
 
 vim.diagnostic.config({
@@ -209,6 +209,7 @@ require("lazy").setup({
     },
     {
       "nvim-tree/nvim-web-devicons",
+      opts = {},
     },
     {
       "MunifTanjim/nui.nvim",
@@ -311,15 +312,6 @@ require("lazy").setup({
       opts = {
         mappings = {'<C-u>', '<C-d>', 'zt', 'zz', 'zb'},
       }
-    },
-    {
-      "petertriho/nvim-scrollbar",
-      config = function()
-        require("scrollbar").setup()
-        require("scrollbar.handlers.search").setup({
-            override_lens = function() end,
-        })
-      end,
     },
     {
       'akinsho/bufferline.nvim',
@@ -471,7 +463,7 @@ require("lazy").setup({
         completion = {
           trigger = {
             show_in_snippet = false,
-            show_on_blocked_trigger_characters = { ' ', '\n', '\t', '}' }
+            show_on_blocked_trigger_characters = { ' ', '\n', '\t', '}', ')', ']', '"', "'" }
           },
           list = {
             selection = {
