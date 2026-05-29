@@ -265,12 +265,6 @@ require("lazy").setup({
       },
     },
     {
-      'pangloss/vim-javascript',
-    },
-    {
-      'HerringtonDarkholme/yats.vim',
-    },
-    {
       'MeanderingProgrammer/render-markdown.nvim',
       opts = {},
     },
@@ -381,7 +375,7 @@ require("lazy").setup({
         },
       },
       keys = {
-        { '<c-n>', mode = { "n" }, function() require("conform").format() end }
+        { '<c-n>', mode = { "n", "v" }, function() require("conform").format() end }
       }
     },
     {
@@ -523,7 +517,6 @@ require("lazy").setup({
         { "<leader>i", function() Snacks.picker.icons() end, desc = "Icons" },
         { "<leader>z",  function() Snacks.zen() end, desc = "Toggle Zen Mode" },
         { "<leader>G", function() Snacks.lazygit() end, desc = "Lazygit" },
-        { "<leader>sd", function() Snacks.picker.diagnostics() end, desc = "Diagnostics" },
       }
     },
     {
