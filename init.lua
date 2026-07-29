@@ -509,7 +509,6 @@ require("lazy").setup({
         { "<leader>gf", function() Snacks.picker.git_log_file() end, desc = "Git Log File" },
         { "<leader>f", function() Snacks.picker.lines() end, desc = "Buffer Lines" },
         { "<F1>", function() Snacks.picker.help() end, desc = "Help Pages" },
-        { "<leader>h", function() Snacks.picker.highlights() end, desc = "Highlights" },
         { "<leader>m", function() Snacks.picker.keymaps() end, desc = "Keymaps" },
         { "<leader><cr>", function() Snacks.picker.resume() end, desc = "Resume" },
         { "<leader>u", function() Snacks.picker.undo() end, desc = "Undo History" },
@@ -517,6 +516,13 @@ require("lazy").setup({
         { "<leader>i", function() Snacks.picker.icons() end, desc = "Icons" },
         { "<leader>z",  function() Snacks.zen() end, desc = "Toggle Zen Mode" },
         { "<leader>G", function() Snacks.lazygit() end, desc = "Lazygit" },
+        { "gd", function() Snacks.picker.lsp_definitions() end, desc = "Goto Definition" },
+        { "gD", function() Snacks.picker.lsp_declarations() end, desc = "Goto Declaration" },
+        { "gr", function() Snacks.picker.lsp_references() end, nowait = true, desc = "References" },
+        { "gI", function() Snacks.picker.lsp_implementations() end, desc = "Goto Implementation" },
+        { "gy", function() Snacks.picker.lsp_type_definitions() end, desc = "Goto T[y]pe Definition" },
+        { "gai", function() Snacks.picker.lsp_incoming_calls() end, desc = "C[a]lls Incoming" },
+        { "gao", function() Snacks.picker.lsp_outgoing_calls() end, desc = "C[a]lls Outgoing" },
       }
     },
     {
